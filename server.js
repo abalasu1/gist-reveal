@@ -71,6 +71,7 @@ var config = cc({
 , TEMPLATE_GIST_TEXT : process.env.TEMPLATE_GIST_TEXT || "Presented by: @"
 , TEMPLATE_GIST_IMG : process.env.TEMPLATE_GIST_IMG || "/img/presented_by/"
 , TEMPLATE_GIST_URL : process.env.TEMPLATE_GIST_URL || "https://gist.github.com/"
+, TEMPLATE_IBM_IMG: process.env.TEMPLATE_IBM_IMG || "/img/ibm.png"
 });
 var createHash = function(secret) {
 	var cipher = crypto.createCipher('blowfish', secret);
